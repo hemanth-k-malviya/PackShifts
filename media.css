@@ -1,0 +1,150 @@
+@media only screen and (min-width:200px) and (max-width:567px) {
+    .container .header .logo img {
+        margin: auto;
+    }
+
+    .container .header {
+        margin: 0px;
+    }
+    .main .left h2 {
+        padding: 20px;
+        text-transform: uppercase;
+    }
+    .main .left h2 span{
+        padding: 20px;
+        text-transform: uppercase;
+    }
+    .main .left h3 {
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .main .left p {
+        padding: 20px;
+    }
+    .main .left img {
+        margin-left: 20px;
+    }
+    .NumberIcon {
+        display: none;
+    }
+
+    .main {
+        display: block;
+        padding: 0;
+        margin: 0px;
+    }
+
+    .main .left {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .TructFooter {
+        display: none;
+    }
+
+    .right {
+        width: 90%;
+        margin: auto;
+    }
+
+    .right .form {
+        width: 100%;
+
+    }
+
+    .right .form input {
+        width: 100%;
+    }
+
+    .right .inner {
+        display: block;
+    }
+
+    .right .inner :nth-child(2) {
+        padding: 20px 0px;
+        text-align: center;
+        font-size: 24px;
+    }
+    .ytbg{
+        max-width: 1000px;
+    }
+    .YouTube {
+        max-width: 90%;
+        display: block;
+    }
+    .client-box-image{
+        display: block;
+        margin: auto;
+    }
+    .client-box-image img{
+        border-radius: 10%;
+        margin-left: 22px;
+    }
+
+    .YouTube .Row {
+        width: 100%;
+    }
+    .location {
+        max-width: 100%;
+        padding: 20px;
+    }
+    .services-box{
+        width: 100%;
+    }
+    .services-box .box-inner{
+        width: 100%;
+       
+    }
+    .checkBox{
+        width: 100%;
+    }
+    .row-1{
+        width: 44%;
+        margin: auto;
+    }
+    .achieve-icons{
+        max-width: 100%;
+        gap: 15px;
+        padding: 15px;
+    }
+    .icon{
+        max-width: 50%;
+    }
+    .innerCon{
+        max-width: 92%;
+        /* padding-top: 36px; */
+        margin-top: 22px;
+    }
+    .innerCon p{
+        padding-top: 100px;
+        padding-bottom: 43px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .innerConsmall{
+        width: 100%;
+        left: 166px;
+        top: 14px;
+    }
+    .client-box .image img{
+        display: none;
+    }
+    .address{
+        width: 95%;
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .NumberIcon-inner{
+        width: 30%;
+        display: block;
+        margin: auto;
+    }
+    .footer-con{
+        max-width: 100%;
+        text-align: center;
+    }
+}
+

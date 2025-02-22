@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes bgcolor {
+    0%{
+        background-color: #155ED1;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: #155ED1;
+    }
+}
+.container{
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+
+}
+.header {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.NumberIcon {
+    background-color: gold;
+    border-radius: 24px 24px 0px 24px;
+    padding: 8px;
+    animation: bgcolor 1s 3s infinite linear;
+}
+
+.NumberIcon span {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main {
+    width: 100%;
+    background-image: url(https://packshifts.in/images/banner.jpg);
+    padding: 50px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main .left {
+    width: 50%;
+    margin: 20px;
+    margin-left: 60px;
+}
+.main .left h2{
+    color: white;
+    padding: 33px;
+}
+.main .left  span{
+    color: white;
+    padding: 33px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main .left h3 {
+    color: white;
+    padding: 33px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.main .left p {
+    color: white;
+    padding: 33px;
+    font-size: 22px;
+    margin-top: -20px;
+}
+
+.main .left img {
+    margin-left: 33px;
+}
+
+.right {
+    width: 25%;
+    border-radius: 20px;
+    background-color: #ccc;
+}
+
+.right .form {
+    width: 100%;
+    padding: 15px;
+}
+
+.right .form h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.right .form input {
+    width: 90%;
+    padding: 6px;
+    margin-top: 20px;
+    padding: 8px;
+}
+
+.right .form span {
+    color: #155ED1;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.right .form .sub {
+    width: 90%;
+    margin-top: 20px;
+    padding: 8px;
+    background-color: #155ED1;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.right .inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -16px;
+}
+
+.right .inner input {
+    margin: 16px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    width: 100px;
+    font-weight: bold;
+    display: block;
+}
+
+.right .inner :nth-child(2) {
+    background-color: #ffcf3f;
+    color: rgba(0, 0, 0, auto);
+    border: none;
+}
+
+.location {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.location .pack {
+    color: #155ED1;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.location .vid {
+    font-size: 22px;
+    color: #ffcf3f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.ytbg{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.YouTube {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid; */
+}
+
+.Row {
+    /* width: 23%; */
+    border-radius: 15px;
+    /* align-items: center; */
+    margin: auto;
+}
+
+.Row iframe {
+    width: 100%;
+    margin: 1%;
+    border-radius: 15px;
+}
+
+.Row p {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #155ED1;
+}
+
+.SERVICES{
+    padding: 15px;
+    background-color: #F4F4F4;
+}
+.services-box{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services-box .box-inner{
+    width: 48%;
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+   
+}
+.services-box .box-inner img{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px ;
+}
+.services-box .box-inner h2{
+    text-align: center;
+    color: #155ED1;
+    text-transform: capitalize;
+    font: bold;
+    font-size: 22px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #155ED1;
+}
+.services-box .box-inner p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.services-box .box-inner .btn{
+    padding: 10px;
+    background-color: gold;
+    width: 114px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 6px;
+}
+
+.checkBox{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.row-1{
+    width: 22%;
+    border-radius: 6px; 
+    background: #f4f4f4;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    padding: 16px 17px 22px 23px;
+}
+.Our-achievement{
+    background-color: #155ED1;
+    text-align: center;
+    margin: 30px;
+    padding: 22px;
+}
+.achieve-row{
+    max-width: 1000px;
+    color: white;
+    margin: auto;
+    padding: 22px;
+    font-size: 22px;
+}
+.achieve-row span{
+    padding: 20px;
+}
+.achieve-icons{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+    text-align: center;
+}
+.icon{
+    max-width: 18%;
+    font-weight: bold;
+}
+.icon-img{
+    width: 100%;
+}
+.achieve-icons .icon p{
+    color: white;
+}
+.innerCon{
+    max-width: 1000px;
+    background-color: #155ED1;
+    /* padding-left: 22px; */
+    margin: auto;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+}
+.innerCon p{
+    color: white;
+    left: 22px;
+    padding-top: 95px;
+    padding-bottom: 128px;
+    margin-left: 135px;
+    font-size: 22px;
+}
+.innerConsmall{
+    max-width: 150px;
+    background-color: #ffcf3f;
+    position: absolute;
+    left: -77px;
+    top: 75px;
+    border-radius: 10px;
+}
+.innerConsmall img{
+    width: 50%;
+}
+span{
+    font-weight: bold;
+    font-weight: 22px;
+}
+.client{
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: #f4f4f4;
+    margin: auto;
+    padding: 25px 0px;
+    margin-top: 25px;
+}
+.client-box{
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    /* border: 2px solid; */
+    justify-content: space-between;
+}
+.client-box .image{
+    max-width: 100%;
+}
+.client-box .image img{
+    width: 18%;
+    padding: 22px;
+    border: 1px solid ;
+    border-radius: 30px;
+}
+.client-box-image{
+    display: none;
+}
+.address{
+    width: 40%;
+    background-color: #F4F4F4;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 22px;
+}
+
+.NumberIcon-inner{
+    background-color: gold;
+    border-radius: 24px 24px 0px 24px;
+    padding: 8px;
+    animation: bgcolor 1s 3s infinite linear;
+}
+.footer{
+    width: 100%;
+    background-color: #155ED1;
+    padding: 22px;
+    margin-top: 10px;
+}
+.content{
+    max-width: 1000px;
+    border-bottom: 2px solid white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content-right{
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.footer-con{
+    max-width: 1000px;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+
+@keyframes TructMove {
+    from{
+       left: -20%;
+    }
+    to{
+       left: 120%; 
+       
+    }
+}
+.TructFooter{
+    max-width: 150px;
+    height: 100px;
+    position: fixed;
+    left: -20%;
+    animation: TructMove 2s 1s infinite ease-in; 
+    bottom: 0px;
+}
+
+.TructFooter img{
+  width: 100%;
+  height: 100%;
+
+  
+}
