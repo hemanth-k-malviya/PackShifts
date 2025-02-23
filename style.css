@@ -425,7 +425,7 @@ span{
     height: 100px;
     position: fixed;
     left: -20%;
-    animation: TructMove 2s 1s infinite ease-in; 
+    animation: TructMove 5s 1s infinite linear; 
     bottom: 0px;
 }
 
